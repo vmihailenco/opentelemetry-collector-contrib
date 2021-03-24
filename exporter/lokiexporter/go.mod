@@ -4,7 +4,7 @@ go 1.14
 
 require (
 	github.com/gogo/protobuf v1.3.2
-	github.com/golang/snappy v0.0.2
+	github.com/golang/snappy v0.0.3
 	// The Loki repo doesn't currently follow the new go.mod semantics, since it's not typically used externally.
 	// To get this to work as is, we must import it using the following format: v0.0.0-timestamp-commithash
 	github.com/grafana/loki v0.0.0-20201223215703-1b79df3754f6
