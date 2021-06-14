@@ -11,7 +11,7 @@ require (
 	github.com/prometheus/common v0.15.0
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.20.1-0.20210218001603-48151d869607
-	go.uber.org/zap v1.16.0
+	go.uber.org/zap v1.17.0
 )
 
 // Keeping these the same as Loki (https://github.com/grafana/loki/blob/master/go.mod) to avoid dependency issues.
